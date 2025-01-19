@@ -12,14 +12,14 @@ const UserSignup = () => {
   const submitHandler=(e)=>{
     e.preventDefault()
     setUserData({
-      username:{
+      fullName:{
         firstName: firstName,
         lastName: lastName
       },
       email: email,
       password: password
     })
-    console.log(userData);
+    
     
     setEmail('')
     setFirstName('')
